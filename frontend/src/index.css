@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .offcanvas-menu-wrapper {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 270px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 999;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.offcanvas-menu-wrapper.show {
+  visibility: visible;
+  transform: translateX(-270px);
+}
+
+.offcanvas-menu-overlay {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 98;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.offcanvas-menu-overlay.show {
+  opacity: 1;
+  visibility: visible;
+  z-index: 98;
+}
+
+.canvas-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 28px;
+  z-index: 99;
+}
+
+.canvas-close:hover {
+  color: #b1b1b1;
+}
+
+.canvas-menu {
+  width: 270px;
+  height: 100%;
+  padding-top: 130px;
+  background: #111111;
+  z-index: 99;
+}
+
+.canvas-menu ul li {
+  display: block;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.canvas-menu ul li:last-child {
+  margin-bottom: 0;
+}
+
+.canvas-menu ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 0;
+}
+
+.canvas-menu ul li a:hover {
+  color: #b1b1b1;
+}
+
+.canvas-menu ul li ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 250px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.canvas-menu ul li ul:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #111111;
+}
+
+.canvas-menu ul li:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+.canvas-menu ul li ul li {
+  display: block;
+  margin-bottom: 0;
+}
+
+.canvas-menu ul li ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: none;
+  padding: 8px 0 8px 30px;
+  background: #222222;
+  transition: all 0.3s ease-in-out;
+}
+
+.canvas-menu ul li ul li a:hover {
+  color: #b1b1b1;
+  background: #2e2e2e;
+}
+
+Off-Canvas Menu CSS End */

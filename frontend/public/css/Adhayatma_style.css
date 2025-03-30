@@ -1,0 +1,272 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-img{
+  background: url("../assets/img/Adhyatama/bg_3.jpeg");
+  background-size: cover;
+  height: 100vh;
+
+}
+.hero-img-iso{
+  background: url("../assets/img/Isometric/Isometric1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.hero-img-sus{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.774) 0%, rgba(0, 0, 0, 0.425) 59%, rgba(0, 0, 0, 0.651) 100%),url("../assets/img/Sustenance/sustenance.jpg");
+  background-size: cover;
+  height: 100vh;
+
+}
+nav {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+nav .nav-heading{
+  padding-top: 40px;
+  color: #141414;
+  float: left;
+  margin-left: 20px;
+  width: 80px;
+}
+nav .link-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+nav ul li a{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #141414;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: 1px solid #144141;
+}
+nav ul li a:hover,a.active{
+  background-color: rgb(29, 64, 78);
+  color: #d8e0e0;
+  border: 1px solid #a8a9a9;
+}
+.sus-nav a{
+  color: #d8e0e0;
+  border: 1px solid #a8a9a9;
+  /* background-color: rgba(29, 64, 78, 0.61); */
+}
+.sus-nav .active{
+  background-color: rgba(29, 64, 78, 0.945);
+}
+.hero-img .hero-text{
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  color: #144141;
+}
+.hero-img .hero-text h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-img-iso .hero-text{
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  right: 10%;
+  color: #144141;
+}
+.hero-img-iso .hero-text h2{
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+.hero-img-sus .hero-text{
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #b3b3b3;
+}
+.hero-img-sus .hero-text h2{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b3b3b3;
+}
+.adhya-intro{
+  color: #141414;
+}
+.med-yog-container{
+
+  margin-top: 250px;
+}
+
+.yog-card-container .card{
+  margin: 10px;
+}
+.med-yog-container h3{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.fa-solid{
+  line-height: 2 !important;
+}
+.tab-button{
+  font-size: 20px;
+}
+#myTab{
+  margin-top: 80px;
+}
+.accordion-button{
+  color: rgb(29, 64, 78);
+  border-bottom:1px solid rgb(29, 64, 78);
+  border-left:1px solid rgb(29, 64, 78);
+  padding: 12px 12px;
+}
+@media (max-width: 550px) {
+  /* … */
+  .yog-card-container .card{
+    margin: auto;
+  }
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.87);
+  color: #d8e0e0;
+  text-align: center;
+  padding: 7px 0 ;
+}
+footer p{
+ margin-top: 12px;
+}
+footer a{
+  color: rgb(162, 207, 192);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.card a{
+  color: #d8e0e0;
+}
+.ppOne{
+  background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.774) 0%, rgba(0, 0, 0, 0.425) 59%, rgba(0, 0, 0, 0.651) 100%),
+  url('../assets/img/Sustenance/Image\ of\ healthy\ food.jpg') no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+
+.pp a:hover{
+  opacity: .8;
+  color: #b3b3b3;
+}
+.ppTwo{
+  background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.774) 0%, rgba(0, 0, 0, 0.425) 59%, rgba(0, 0, 0, 0.651) 100%),
+  url('../assets/img/Sustenance/Image\ of\ a\ person\ drinking\ water-p-1600.jpeg') no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+.ppThree{
+  background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.774) 0%, rgba(0, 0, 0, 0.425) 59%, rgba(0, 0, 0, 0.651) 100%),
+  url('../assets/img/Sustenance/pre-and-post-workout-diet.jpeg') no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+.card-link a{
+  color: #144141;
+  border: 1px solid #144141;
+  border-radius: 5px;
+  padding: 4px 7px;
+}
+.card-link a:hover{
+  background-color: #144141;
+  color: #b3b3b3;
+}
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+.social-icon span{
+  font-size: 30px;color: #141414;
+  margin-left: 10px;
+} 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+.primary-btn2 {
+ 
+  /* bottom: 60px; */
+  /* left: 60px; */
+   background-color: rgb(247, 242, 242); 
+   opacity: 0.5;
+    width: 200px;
+   color: black;
+   padding: 1rem 2rem;
+   border: 2px solid #0056b3; 
+   border-radius: 1rem;
+   text-decoration: none;
+   transition: background-color 0.3s ease;  
+}
+.primary-btn2 a{
+
+   color:#141414;
+   font-weight: 600;
+}
+.primary-btn2:hover {
+  background-color: #42bb37;
+  color: #22ca5a;
+} 
